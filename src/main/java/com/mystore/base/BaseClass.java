@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeSuite;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class BaseClass {
 
@@ -28,10 +29,18 @@ public class BaseClass {
         }
 
     }
-
+    
+    @BeforeSuite()
     public void launchBrowser() {
         BrowserFactory browserFactory = new BrowserFactory();
         driver = browserFactory.initDriver(props.getProperty("browser"));
+        driver.manage().timeouts().implicitlyWait
+                (Integer.parseInt(props.getProperty("implicitWait")), TimeUnit.SECONDS);
+        //PageLoad TimeOuts
+        driver.manage().timeouts().pageLoadTimeout
+                (Integer.parseInt(props.getProperty("pageLoadTimeOut")), TimeUnit.SECONDS);
+        //Launching the URL
+        driver.get(props.getProperty("BASE_URL"));
     }
 
     public static Properties getProps() {
