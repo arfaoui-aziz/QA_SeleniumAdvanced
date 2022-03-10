@@ -1,6 +1,8 @@
 package com.mystore.base;
 
 
+import com.mystore.Factory.BrowserFactory;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeSuite;
 
 import java.io.FileInputStream;
@@ -9,7 +11,8 @@ import java.util.Properties;
 
 public class BaseClass {
 
-    public static Properties props;
+    private static Properties props;
+    private WebDriver driver;
 
     @BeforeSuite()
     public void loadConfig() {
@@ -25,5 +28,12 @@ public class BaseClass {
         }
 
     }
+
+    public void launchBrowser() {
+        BrowserFactory browserFactory = new BrowserFactory();
+        driver = browserFactory.initDriver(props.getProperty("browser"));
+
+    }
+
 
 }
