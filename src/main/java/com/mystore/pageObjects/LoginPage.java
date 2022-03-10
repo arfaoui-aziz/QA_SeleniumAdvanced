@@ -5,20 +5,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage extends BaseClass {
+public class LoginPage extends BaseClass {
 
-    @FindBy(xpath = "//a[@class='login']")
-    WebElement signInBtn;
+    @FindBy(id = "email")
+    WebElement email;
 
-    @FindBy(name = "submit_search")
-    WebElement searchBtn;
+    @FindBy(id = "passwd")
+    WebElement password;
 
-    /**
-     * initialize Page inside constructor
-     */
-    public HomePage() {
+    @FindBy(id = "SubmitLogin")
+    WebElement loginBtn;
+
+
+    public LoginPage() {
         PageFactory.initElements(getDriver(), this);
     }
-
 
 }

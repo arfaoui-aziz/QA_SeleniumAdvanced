@@ -32,8 +32,14 @@ public class BaseClass {
     public void launchBrowser() {
         BrowserFactory browserFactory = new BrowserFactory();
         driver = browserFactory.initDriver(props.getProperty("browser"));
-
     }
 
+    public static Properties getProps() {
+        return props;
+    }
+
+    public WebDriver getDriver() {
+        return driver;
+    }
 
 }
