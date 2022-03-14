@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -67,9 +68,10 @@ public class BaseClass {
         }
     }
 
-    public void launchApp() {
 
-        String browserName = prop.getProperty("browser");
+    public void launchApp(String browserName) {
+
+        //String browserName = prop.getProperty("browser");
         BrowserFactory browserFactory = new BrowserFactory();
         browserFactory.initDriver(browserName);
         BrowserFactory.getDriver().manage().timeouts().implicitlyWait

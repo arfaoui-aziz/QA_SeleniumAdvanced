@@ -5,7 +5,7 @@
         <!--<listener class-name="com.mystore.utility.ListenerClass"></listener>-->
     </listeners>
     <test thread-count="2" name="Test_All">
-    <!-- <parameter name="browser" value="Chrome"></parameter> -->
+    <parameter name="browser" value="chrome"></parameter>
     <classes>
         <class name="com.mystore.testCases.HomePageTest" />
         <class name="com.mystore.testCases.LoginPageTest" />

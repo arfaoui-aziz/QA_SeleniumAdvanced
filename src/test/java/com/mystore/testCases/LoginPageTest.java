@@ -7,6 +7,7 @@ import com.mystore.pageObjects.MyAccountPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class LoginPageTest extends BaseClass {
@@ -15,10 +16,11 @@ public class LoginPageTest extends BaseClass {
     private LoginPage loginPage;
     private MyAccountPage myAccountPage;
 
+    @Parameters("browser")
     @BeforeMethod(groups = {"Smoke", "Sanity", "Regression"})
-    public void setup() {
+    public void setup(String browser) {
         //   loadConfig();
-        launchApp();
+        launchApp(browser);
     }
 
     @AfterMethod(groups = {"Smoke", "Sanity", "Regression"})

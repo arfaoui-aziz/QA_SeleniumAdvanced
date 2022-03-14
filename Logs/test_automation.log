@@ -8,3 +8,29 @@
 [INFO ] 2022-03-14 17:03:33.015 [main] Log - My Store
 [INFO ] 2022-03-14 17:03:33.148 [main] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
 [INFO ] 2022-03-14 17:03:33.154 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[INFO ] 2022-03-14 17:18:17.790 [main] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[INFO ] 2022-03-14 17:18:17.808 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[INFO ] 2022-03-14 17:18:31.777 [main] Log - =====================================verifyTitle TEST START=========================================
+[INFO ] 2022-03-14 17:18:31.781 [main] Log - My Store
+[INFO ] 2022-03-14 17:18:31.919 [main] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[INFO ] 2022-03-14 17:18:31.925 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[INFO ] 2022-03-14 17:34:58.090 [TestNG-tests-3] WebDriverManager - Reading https://api.github.com/repos/SeleniumHQ/selenium/releases to seek IEDriverServer
+[INFO ] 2022-03-14 17:34:58.118 [TestNG-tests-1] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[INFO ] 2022-03-14 17:34:58.136 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[INFO ] 2022-03-14 17:34:58.840 [TestNG-tests-2] WebDriverManager - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[INFO ] 2022-03-14 17:34:59.261 [TestNG-tests-2] Downloader - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-win64.zip
+[INFO ] 2022-03-14 17:34:59.741 [TestNG-tests-3] Downloader - Downloading https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.0.0/IEDriverServer_x64_4.0.0.zip
+[INFO ] 2022-03-14 17:35:01.322 [TestNG-tests-2] Downloader - Extracting driver from compressed file geckodriver-v0.30.0-win64.zip
+[INFO ] 2022-03-14 17:35:01.350 [TestNG-tests-2] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\aziza\.cache\selenium\geckodriver\win64\0.30.0\geckodriver.exe
+[INFO ] 2022-03-14 17:35:01.990 [TestNG-tests-3] Downloader - Extracting driver from compressed file iedriverserver_x64_4.0.0.zip
+[INFO ] 2022-03-14 17:35:02.015 [TestNG-tests-3] WebDriverManager - Exporting webdriver.ie.driver as C:\Users\aziza\.cache\selenium\IEDriverServer\win64\4.0.0\IEDriverServer.exe
+[INFO ] 2022-03-14 17:35:13.024 [TestNG-tests-1] Log - =====================================verifyTitle TEST START=========================================
+[INFO ] 2022-03-14 17:35:13.029 [TestNG-tests-1] Log - My Store
+[INFO ] 2022-03-14 17:37:04.304 [TestNG-tests-1] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[INFO ] 2022-03-14 17:37:04.326 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[INFO ] 2022-03-14 17:37:04.884 [TestNG-tests-2] WebDriverManager - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[INFO ] 2022-03-14 17:37:05.401 [TestNG-tests-2] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\aziza\.cache\selenium\geckodriver\win64\0.30.0\geckodriver.exe
+[INFO ] 2022-03-14 17:37:22.764 [TestNG-tests-2] Log - =====================================verifyTitle TEST START=========================================
+[INFO ] 2022-03-14 17:37:22.767 [TestNG-tests-2] Log - My Store
+[INFO ] 2022-03-14 17:37:22.807 [TestNG-tests-1] Log - =====================================verifyTitle TEST START=========================================
+[INFO ] 2022-03-14 17:37:22.824 [TestNG-tests-1] Log - My Store
