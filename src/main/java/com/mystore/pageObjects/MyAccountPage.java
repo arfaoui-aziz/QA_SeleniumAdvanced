@@ -5,7 +5,12 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MyAccountPage extends BaseClass {
 
+
     public MyAccountPage() {
         PageFactory.initElements(getDriver(), this);
+    }
+
+    public String getCurrURL(){
+        return getDriver().getCurrentUrl();
     }
 }

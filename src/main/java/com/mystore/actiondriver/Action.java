@@ -27,7 +27,8 @@ public class Action extends BaseClass implements IAction {
     public void click(WebDriver driver, WebElement ele) {
 
         Actions act = new Actions(driver);
-        act.moveToElement(ele).click().build().perform();
+        act.moveToElement(ele).click(ele).build().perform();
+        //act.click(ele).build().perform();
 
     }
 
@@ -247,7 +248,7 @@ public class Action extends BaseClass implements IAction {
             String javaScript = "var evObj = document.createEvent('MouseEvents');"
                     + "evObj.initMouseEvent(\"mouseover\",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);"
                     + "arguments[0].dispatchEvent(evObj);";
-            JavascriptExecutor js = (JavascriptExecutor) getDriver();
+            JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript(javaScript, mo);
             flag = true;
             return true;
