@@ -2,6 +2,7 @@ package com.mystore.testCases;
 
 import com.mystore.base.BaseClass;
 import com.mystore.pageObjects.HomePage;
+import com.mystore.utility.Log;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -35,8 +36,9 @@ public class HomePageTest extends BaseClass {
 
     @Test
     public void verifyTitle() throws Throwable {
+        Log.startTestCase("verifyTitle");
         String pageTitle = homePage.getPageTitle();
-        System.out.println(pageTitle);
+        Log.info(pageTitle);
         Assert.assertEquals(pageTitle, "My Store");
     }
 
