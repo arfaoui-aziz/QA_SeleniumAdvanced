@@ -2,11 +2,13 @@ package com.mystore.base;
 
 
 import com.mystore.Factory.BrowserFactory;
+import com.mystore.utility.ExtentManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
@@ -53,7 +55,7 @@ public class BaseClass {
     //loadConfig method is to load the configuration
     @BeforeSuite(groups = {"Smoke", "Sanity", "Regression"})
     public void loadConfig() {
-
+        ExtentManager.setExtent();
 
         try {
             prop = new Properties();
@@ -83,6 +85,12 @@ public class BaseClass {
         BrowserFactory.getDriver().get(prop.getProperty("BASE_URL"));
     }
 
+    @AfterSuite(groups = { "Smoke", "Regression","Sanity" })
+    public void afterSuite() {
+        ExtentManager.endReport();
+    }
+
+
     public static WebDriver getDriver() {
         // Get Driver from threadLocalmap
         return BrowserFactory.getDriver();
@@ -92,10 +100,7 @@ public class BaseClass {
     }
 
 
-    /*@AfterSuite(groups = { "Smoke", "Regression","Sanity" })
-    public void afterSuite() {
-        ExtentManager.endReport();
-    }*/
+
 
 
 }

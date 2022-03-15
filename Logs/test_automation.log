@@ -34,3 +34,16 @@
 [INFO ] 2022-03-14 17:37:22.767 [TestNG-tests-2] Log - My Store
 [INFO ] 2022-03-14 17:37:22.807 [TestNG-tests-1] Log - =====================================verifyTitle TEST START=========================================
 [INFO ] 2022-03-14 17:37:22.824 [TestNG-tests-1] Log - My Store
+[INFO ] 2022-03-14 18:03:32.459 [main] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[INFO ] 2022-03-14 18:03:32.479 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[INFO ] 2022-03-14 18:03:46.513 [main] Log - =====================================verifyTitle TEST START=========================================
+[INFO ] 2022-03-14 18:03:46.517 [main] Log - My Store
+[INFO ] 2022-03-14 18:03:46.633 [main] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[INFO ] 2022-03-14 18:03:46.644 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[INFO ] 2022-03-15 10:32:37.083 [main] Log - C:\Users\aziza\Documents\QA\SeleniumAdvanced
+[INFO ] 2022-03-15 10:32:38.371 [main] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[INFO ] 2022-03-15 10:32:38.398 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[INFO ] 2022-03-15 10:32:52.774 [main] Log - =====================================verifyTitle TEST START=========================================
+[INFO ] 2022-03-15 10:32:52.780 [main] Log - My Store
+[INFO ] 2022-03-15 10:32:52.967 [main] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[INFO ] 2022-03-15 10:32:52.984 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
