@@ -47,3 +47,17 @@
 [INFO ] 2022-03-15 10:32:52.780 [main] Log - My Store
 [INFO ] 2022-03-15 10:32:52.967 [main] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
 [INFO ] 2022-03-15 10:32:52.984 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[INFO ] 2022-03-15 10:40:27.929 [main] Log - Pathhhhhhhhhhhhh C:\Users\aziza\Documents\QA\SeleniumAdvanced
+[INFO ] 2022-03-15 10:40:28.336 [main] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[INFO ] 2022-03-15 10:40:28.358 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[INFO ] 2022-03-15 10:40:41.195 [main] Log - =====================================verifyTitle TEST START=========================================
+[INFO ] 2022-03-15 10:40:41.201 [main] Log - My Store
+[INFO ] 2022-03-15 10:40:42.004 [main] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[INFO ] 2022-03-15 10:40:42.021 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[INFO ] 2022-03-15 10:49:22.725 [main] Log - Pathhhhhhhhhhhhh C:\Users\aziza\Documents\QA\SeleniumAdvanced
+[INFO ] 2022-03-15 10:49:23.224 [main] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[INFO ] 2022-03-15 10:49:23.246 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+[INFO ] 2022-03-15 10:49:35.897 [main] Log - =====================================verifyTitle TEST START=========================================
+[INFO ] 2022-03-15 10:49:35.902 [main] Log - My Store
+[INFO ] 2022-03-15 10:49:36.698 [main] WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+[INFO ] 2022-03-15 10:49:36.712 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\aziza\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe

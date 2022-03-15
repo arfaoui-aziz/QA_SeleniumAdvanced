@@ -3,7 +3,6 @@ package com.mystore.testCases;
 import com.mystore.base.BaseClass;
 import com.mystore.pageObjects.HomePage;
 import com.mystore.utility.Log;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -23,8 +22,7 @@ public class HomePageTest extends BaseClass {
     }
 
 
-
-   @AfterMethod(groups = {"Smoke", "Sanity", "Regression"})
+    @AfterMethod(groups = {"Smoke", "Sanity", "Regression"})
     public void tearDown() {
         getDriver().quit();
     }
@@ -41,7 +39,7 @@ public class HomePageTest extends BaseClass {
         Log.startTestCase("verifyTitle");
         String pageTitle = homePage.getPageTitle();
         Log.info(pageTitle);
-        Assert.assertEquals(pageTitle, "My Store");
+        Assert.assertEquals(pageTitle, "My Store1");
     }
 
 
